@@ -21,16 +21,49 @@ h2{
   margin-top: 20px;
 }
 
+a{
+  text-decoration: none;
+  color: white;
+}
+
 /*header*/
-.site-init{
+.site-init {
   background-image: url(./imgs/banner.jpg);
   background-size: cover;
   border-bottom: 1px solid #eee;
   height: 300px;
   color: white;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
 }
 
+.site-init h1 a {
+  position: absolute;
+  top: 20px;
+  left: 100px;
+}
+
+
+.site-init nav {
+  align-self: flex-end;
+  position: absolute;
+  top: 20px;
+  right: 100px;
+}
+
+.site-init h1, .site-init p {
+  margin: 0 0 80px;
+}
+
+.site-init a{
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
 /*footer*/
 .footer-courses{
   margin-top: 18px;
@@ -58,21 +91,38 @@ h2{
   text-align: center;
 }
 
-.footer-contact h2 {
+.footer-contact h2 a {
   font-family: 'arial', sans-serif;
   font-size: 30px;
+  position: absolute;
+  left: 100px;
 }
+
+.footer-contact a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 20px;
+  padding-top: 30px;
+}
+
+.footer-contact div {
+  position: absolute;
+  right: 100px;
+  margin: 0 20px;
+  padding-top: 10px;
+
+}
+
+
+.footer-courses{
+  margin-left: 20px;
+}
+
 .footer-courses h4{
   margin-top: 18px;
   margin-bottom: 14px;
 }
-
-.footer-contact p {
-  margin-top: 5px;
-  display: inline-block;
-  margin-right: 20px;
-}
-
 /*utilities*/
 .container{
   width: 80%;
@@ -99,5 +149,9 @@ h2{
   margin-top: 20px;
 }
 
-
+.flex-container{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
 
