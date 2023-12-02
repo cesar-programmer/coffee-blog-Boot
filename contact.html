@@ -3,9 +3,56 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
   <title>Document</title>
 </head>
 <body>
-  <h1>Contact</h1>
+
+  <header class="site-secondary">
+    <h1><a href="index.html">Coffee Blog</a></h1>
+    <nav>
+      <a href="./about.html">About</a>
+      <a href="./courses.html">Courses</a>
+      <a href="./contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h2>Contact</h2>
+    <div class="form-container">
+      <div class="img-container">
+        <img src="./imgs/contact.jpg" alt="">
+      </div>
+
+      <form>
+        <div class="input-container">
+          <label> Name:</label>
+          <input type="text" placeholder="Add your name">
+        </div>
+
+        <div class="input-container">
+          <label> Email:</label>
+          <input type="email" placeholder="Add your email">
+        </div>
+
+        <div class="input-container">
+          <label> Message: </label>
+          <textarea cols="30" rows="10"></textarea>
+        </div>
+        <a class="send-button" href="">Send</a>
+      </form>
+    </div>
+  </main>
+
+  <footer class="footer-contact">
+    <h2><a href="index.html">Coffee Blog</a></h2>
+    <div>
+      <a href="./about.html">About</a>
+      <a href="./courses.html">Courses</a>
+      <a href="./contact.html">Contact</a>
+    </div>
+  </footer>
+
+
 </body>
 </html>

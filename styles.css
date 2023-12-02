@@ -64,6 +64,45 @@ a{
   margin-bottom: 20px;
   margin-top: 20px;
 }
+
+
+.site-secondary{
+  background-color: black;
+  background-size: cover;
+  height: 100px;
+  color: white;
+  text-align: center;
+  position: relative;
+  margin-top: -90px;
+
+}
+
+
+.site-secondary h1 a {
+  position: absolute;
+  top: 20px;
+  left: 100px;
+}
+
+
+.site-secondary nav {
+  align-self: flex-end;
+  position: absolute;
+  top: 20px;
+  right: 100px;
+}
+
+.site-secondary h1, .site-secondary p {
+  margin: 0 0 80px;
+}
+
+.site-secondary a{
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
 /*footer*/
 .footer-courses{
   margin-top: 18px;
@@ -126,7 +165,8 @@ a{
 /*utilities*/
 .container{
   width: 80%;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .read-more{
@@ -155,3 +195,83 @@ a{
   flex-direction: row;
 }
 
+
+/*Forms*/
+.form-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1)
+}
+
+form{
+  width: 100%;
+  padding: 20px;
+}
+
+.input-container{
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.input-container input,
+.input-container textarea {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.input-container label{
+  min-width: 100px;
+  margin-right: 10px;
+}
+
+
+.send-button{
+  background-color: black;
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 6px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+/* Courses */
+
+.course-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+  margin-top: 40px
+}
+
+
+.take-button{
+  background-color: black;
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 6px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
